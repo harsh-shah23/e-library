@@ -1,0 +1,62 @@
+
+    /* set default styles for body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* style the navigation menu */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+/* style the book details section */
+#bookname, #bookname1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#author, #author1 {
+  margin-top: 5px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* style the footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 50px;
+}
